@@ -57,22 +57,37 @@ nome = prompt('nome')
 idade = prompt('idade')
 email = prompt('email')
 
-console.log("Meu nome é ", nome,", tenho ", Number(idade)," anos, e o meu email é ", email);
+console.log("Meu nome é " + nome+", tenho "+ Number(idade)," anos, e o meu email é ", email);
 
 }
-imprimeInformacoesUsuario()
+
 
 // EXERCÍCIO 05
-function imprimeTresCoresFavoritas() {
+function imprimeTresCoresFavoritas(cor) {
   // implemente sua lógica aqui
+//  cor = prompt('cor1')
+//  cor = prompt('cor2')
+//  cor = prompt('cor3')
+//   let cores = []
 
+//   cores.push(cor1)
+//   cores.push(cor2)
+//   cores.push(cor3)
+
+
+//   console.log(cores[])
 }
+imprimeTresCoresFavoritas()
 
 // EXERCÍCIO 06
 function retornaStringEmMaiuscula(string) {
   // implemente sua lógica aqui
-
+let normal = string
+let maiuscula = normal.toUpperCase();
+console.log(string)
 }
+
+retornaStringEmMaiuscula(oi)
 
 // EXERCÍCIO 07
 function calculaIngressosEspetaculo(custo, valorIngresso) {
