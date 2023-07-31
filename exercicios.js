@@ -17,41 +17,77 @@ function imprimeMensagem() {
 // EXERCÍCIOS PARA FAZER ------------------------------------------------------------------
 
 // EXERCÍCIO 01
-function calculaAreaRetangulo() {
+function calculaAreaRetangulo(altura,largura) {
   // implemente sua lógica aqui
+  
+  altura = prompt('altura')
+  largura = prompt('largura')
+
+  console.log(altura*largura)
+  
 
 }
+
+
+
 
 // EXERCÍCIO 02
-function imprimeIdade() {
+function imprimeIdade(atual,nascimento) {
   // implemente sua lógica aqui
+atual = prompt('atual?')
+nascimento = prompt('nascimento')
 
+console.log(atual-nascimento);
 }
+
+
 
 // EXERCÍCIO 03
 function calculaIMC(peso, altura) {
   // implemente sua lógica aqui
+return peso/(altura*altura)
 
 }
 
 // EXERCÍCIO 04
-function imprimeInformacoesUsuario() {
+function imprimeInformacoesUsuario(nome, idade, email) {
   // implemente sua lógica aqui
   // "Meu nome é NOME, tenho IDADE anos, e o meu email é EMAIL."
+nome = prompt('nome')
+idade = prompt('idade')
+email = prompt('email')
+
+console.log("Meu nome é " + nome+", tenho "+ Number(idade)," anos, e o meu email é ", email);
 
 }
+
 
 // EXERCÍCIO 05
-function imprimeTresCoresFavoritas() {
+function imprimeTresCoresFavoritas(cor) {
   // implemente sua lógica aqui
+//  cor = prompt('cor1')
+//  cor = prompt('cor2')
+//  cor = prompt('cor3')
+//   let cores = []
 
+//   cores.push(cor1)
+//   cores.push(cor2)
+//   cores.push(cor3)
+
+
+//   console.log(cores[])
 }
+imprimeTresCoresFavoritas()
 
 // EXERCÍCIO 06
 function retornaStringEmMaiuscula(string) {
   // implemente sua lógica aqui
-
+let normal = string
+let maiuscula = normal.toUpperCase();
+console.log(string)
 }
+
+retornaStringEmMaiuscula(oi)
 
 // EXERCÍCIO 07
 function calculaIngressosEspetaculo(custo, valorIngresso) {
