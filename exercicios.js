@@ -50,11 +50,17 @@ return peso/(altura*altura)
 }
 
 // EXERCÍCIO 04
-function imprimeInformacoesUsuario() {
+function imprimeInformacoesUsuario(nome, idade, email) {
   // implemente sua lógica aqui
   // "Meu nome é NOME, tenho IDADE anos, e o meu email é EMAIL."
+nome = prompt('nome')
+idade = prompt('idade')
+email = prompt('email')
+
+console.log("Meu nome é ", nome,", tenho ", Number(idade)," anos, e o meu email é ", email);
 
 }
+imprimeInformacoesUsuario()
 
 // EXERCÍCIO 05
 function imprimeTresCoresFavoritas() {
