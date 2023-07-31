@@ -28,7 +28,7 @@ function calculaAreaRetangulo(altura,largura) {
 
 }
 
-calculaAreaRetangulo()
+
 
 
 // EXERCÍCIO 02
@@ -40,11 +40,12 @@ nascimento = prompt('nascimento')
 console.log(atual-nascimento);
 }
 
-imprimeIdade()
+
 
 // EXERCÍCIO 03
 function calculaIMC(peso, altura) {
   // implemente sua lógica aqui
+return peso/(altura*altura)
 
 }
 
